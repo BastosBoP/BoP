@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<title></title>
+	<meta name="generator" content="LibreOffice 7.6.7.2 (Linux)"/>
+	<meta name="author" content="VALLA BASTIEN"/>
+	<meta name="created" content="2024-11-20T21:38:00"/>
+	<meta name="changedby" content="Tom Holland"/>
+	<meta name="changed" content="2024-11-20T21:38:00"/>
+	<meta name="AppVersion" content="16.0000"/>
+	<meta name="ContentTypeId" content="0x010100EC568FBFEAA1F64BAEA161D0E71309E8"/>
+	<style type="text/css">
+		@page { size: 8.27in 11.69in; margin: 0.98in }
+		p { line-height: 115%; text-align: left; orphans: 2; widows: 2; margin-bottom: 0.1in; direction: ltr; background: transparent }
+	</style>
+</head>
+<body lang="fr-FR" link="#000080" vlink="#800000" dir="ltr"><p style="margin-bottom: 0.11in">
+# src/user_interactions.py</p>
+<p style="margin-bottom: 0.11in"><br/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0.11in">def complete_survey(user, survey_id,
+points_per_survey=30):</p>
+<p style="margin-bottom: 0.11in">&nbsp; &nbsp; &quot;&quot;&quot;</p>
+<p style="margin-bottom: 0.11in">&nbsp; &nbsp; Award points for
+completing a survey.</p>
+<p style="margin-bottom: 0.11in">&nbsp; &nbsp; 
+</p>
+<p style="margin-bottom: 0.11in">&nbsp; &nbsp; :param user: The user
+completing the survey.</p>
+<p style="margin-bottom: 0.11in">&nbsp; &nbsp; :param survey_id: The
+identifier of the survey completed.</p>
+<p style="margin-bottom: 0.11in">&nbsp; &nbsp; :param
+points_per_survey: The number of points awarded per survey.</p>
+<p style="margin-bottom: 0.11in">&nbsp; &nbsp; :return: A message
+indicating the points awarded.</p>
+<p style="margin-bottom: 0.11in">&nbsp; &nbsp; &quot;&quot;&quot;</p>
+<p style="margin-bottom: 0.11in">&nbsp; &nbsp; # Simulate completing
+a survey</p>
+<p style="margin-bottom: 0.11in">&nbsp; &nbsp; # In a real
+application, this would involve recording the survey completion in a
+database</p>
+<p style="margin-bottom: 0.11in">&nbsp; &nbsp; points_awarded =
+points_per_survey</p>
+<p style="margin-bottom: 0.11in">&nbsp; &nbsp; return f&quot;User
+{user} completed survey {survey_id} and earned {points_awarded}
+points.&quot;</p>
+<p style="margin-bottom: 0.11in"><br/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0.11in">def update_profile(user,
+profile_fields_updated, points_per_field=5):</p>
+<p style="margin-bottom: 0.11in">&nbsp; &nbsp; &quot;&quot;&quot;</p>
+<p style="margin-bottom: 0.11in">&nbsp; &nbsp; Award points for
+updating profile information.</p>
+<p style="margin-bottom: 0.11in">&nbsp; &nbsp; 
+</p>
+<p style="margin-bottom: 0.11in">&nbsp; &nbsp; :param user: The user
+updating their profile.</p>
+<p style="margin-bottom: 0.11in">&nbsp; &nbsp; :param
+profile_fields_updated: The number of profile fields updated.</p>
+<p style="margin-bottom: 0.11in">&nbsp; &nbsp; :param
+points_per_field: The number of points awarded per field updated.</p>
+<p style="margin-bottom: 0.11in">&nbsp; &nbsp; :return: A message
+indicating the points awarded.</p>
+<p style="margin-bottom: 0.11in">&nbsp; &nbsp; &quot;&quot;&quot;</p>
+<p style="margin-bottom: 0.11in">&nbsp; &nbsp; # Simulate updating
+profile information</p>
+<p style="margin-bottom: 0.11in">&nbsp; &nbsp; # In a real
+application, this would involve updating the user's profile in a
+database</p>
+<p style="margin-bottom: 0.11in">&nbsp; &nbsp; points_awarded =
+profile_fields_updated * points_per_field</p>
+<p style="margin-bottom: 0.11in">&nbsp; &nbsp; return f&quot;User
+{user} updated {profile_fields_updated} profile fields and earned
+{points_awarded} points.&quot;</p>
+<p style="margin-bottom: 0.11in"><br/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0.11in">def check_daily_offers(user,
+points_per_check=10):</p>
+<p style="margin-bottom: 0.11in">&nbsp; &nbsp; &quot;&quot;&quot;</p>
+<p style="margin-bottom: 0.11in">&nbsp; &nbsp; Award points for
+checking daily offers.</p>
+<p style="margin-bottom: 0.11in">&nbsp; &nbsp; 
+</p>
+<p style="margin-bottom: 0.11in">&nbsp; &nbsp; :param user: The user
+checking the daily offers.</p>
+<p style="margin-bottom: 0.11in">&nbsp; &nbsp; :param
+points_per_check: The number of points awarded per check.</p>
+<p style="margin-bottom: 0.11in">&nbsp; &nbsp; :return: A message
+indicating the points awarded.</p>
+<p style="margin-bottom: 0.11in">&nbsp; &nbsp; &quot;&quot;&quot;</p>
+<p style="margin-bottom: 0.11in">&nbsp; &nbsp; # Simulate checking
+daily offers</p>
+<p style="margin-bottom: 0.11in">&nbsp; &nbsp; # In a real
+application, this would involve logging the user's interaction with
+the offers</p>
+<p style="margin-bottom: 0.11in">&nbsp; &nbsp; points_awarded =
+points_per_check</p>
+<p style="margin-bottom: 0.11in">&nbsp; &nbsp; return f&quot;User
+{user} checked daily offers and earned {points_awarded} points.&quot;</p>
+<p style="margin-bottom: 0.11in"><br/>
+<br/>
+
+</p>
+</body>
+</html>
