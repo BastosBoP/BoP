@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<title></title>
+	<meta name="generator" content="LibreOffice 7.6.7.2 (Linux)"/>
+	<meta name="author" content="VALLA BASTIEN"/>
+	<meta name="created" content="2024-11-21T20:22:00"/>
+	<meta name="changedby" content="Tom Holland"/>
+	<meta name="changed" content="2024-11-21T20:22:00"/>
+	<meta name="AppVersion" content="16.0000"/>
+	<meta name="ContentTypeId" content="0x010100EC568FBFEAA1F64BAEA161D0E71309E8"/>
+	<style type="text/css">
+		@page { size: 8.27in 11.69in; margin: 0.98in }
+		p { line-height: 115%; text-align: left; orphans: 2; widows: 2; margin-bottom: 0.1in; direction: ltr; background: transparent }
+	</style>
+</head>
+<body lang="fr-FR" link="#000080" vlink="#800000" dir="ltr"><p style="margin-bottom: 0.11in">
+The tax creates a negative supply shock; the curve shifts upward by
+the amount of the tax. - The demand curve doesn’t shift since only
+the price has changed but you shift the level of demand (according to
+the law of demand). - At the end : → The new market clearing price
+is expansive and the new equilibrium quantity is lower. → The
+burden of the tax (50 cents) is allocated for 30 cents for consumers
+and 20 cents for sellers. # src/ugc_rewards.py</p>
+<p style="margin-bottom: 0.11in"><br/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0.11in">def reward_ugc(user,
+content_details, points_per_content=20):</p>
+<p style="margin-bottom: 0.11in">&nbsp; &nbsp; &quot;&quot;&quot;</p>
+<p style="margin-bottom: 0.11in">&nbsp; &nbsp; Reward points for
+creating and sharing user-generated content.</p>
+<p style="margin-bottom: 0.11in">&nbsp; &nbsp; 
+</p>
+<p style="margin-bottom: 0.11in">&nbsp; &nbsp; :param user: The user
+creating the content.</p>
+<p style="margin-bottom: 0.11in">&nbsp; &nbsp; :param
+content_details: Details of the content created by the user.</p>
+<p style="margin-bottom: 0.11in">&nbsp; &nbsp; :param
+points_per_content: The number of points awarded per content
+creation.</p>
+<p style="margin-bottom: 0.11in">&nbsp; &nbsp; :return: A message
+indicating the points awarded.</p>
+<p style="margin-bottom: 0.11in">&nbsp; &nbsp; &quot;&quot;&quot;</p>
+<p style="margin-bottom: 0.11in">&nbsp; &nbsp; # Simulate rewarding
+user-generated content</p>
+<p style="margin-bottom: 0.11in">&nbsp; &nbsp; # In a real
+application, this would involve recording the content details in a
+database</p>
+<p style="margin-bottom: 0.11in">&nbsp; &nbsp; points_awarded =
+points_per_content</p>
+<p style="margin-bottom: 0.11in">&nbsp; &nbsp; return f&quot;User
+{user} created content '{content_details}' and earned
+{points_awarded} points.&quot;</p>
+<p style="margin-bottom: 0.11in"><br/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0.11in">def track_ugc_engagement(user,
+content_id, likes=0, shares=0, points_per_engagement=5):</p>
+<p style="margin-bottom: 0.11in">&nbsp; &nbsp; &quot;&quot;&quot;</p>
+<p style="margin-bottom: 0.11in">&nbsp; &nbsp; Track engagement on
+user-generated content and award points.</p>
+<p style="margin-bottom: 0.11in">&nbsp; &nbsp; 
+</p>
+<p style="margin-bottom: 0.11in">&nbsp; &nbsp; :param user: The user
+whose content is being engaged with.</p>
+<p style="margin-bottom: 0.11in">&nbsp; &nbsp; :param content_id: The
+identifier of the content being engaged with.</p>
+<p style="margin-bottom: 0.11in">&nbsp; &nbsp; :param likes: The
+number of likes the content received.</p>
+<p style="margin-bottom: 0.11in">&nbsp; &nbsp; :param shares: The
+number of shares the content received.</p>
+<p style="margin-bottom: 0.11in">&nbsp; &nbsp; :param
+points_per_engagement: The number of points awarded per engagement
+action.</p>
+<p style="margin-bottom: 0.11in">&nbsp; &nbsp; :return: A message
+indicating the points awarded based on engagement.</p>
+<p style="margin-bottom: 0.11in">&nbsp; &nbsp; &quot;&quot;&quot;</p>
+<p style="margin-bottom: 0.11in">&nbsp; &nbsp; # Simulate tracking
+engagement on user-generated content</p>
+<p style="margin-bottom: 0.11in">&nbsp; &nbsp; # In a real
+application, this would involve updating engagement metrics in a
+database</p>
+<p style="margin-bottom: 0.11in">&nbsp; &nbsp; total_engagements =
+likes + shares</p>
+<p style="margin-bottom: 0.11in">&nbsp; &nbsp; points_awarded =
+total_engagements * points_per_engagement</p>
+<p style="margin-bottom: 0.11in">&nbsp; &nbsp; return f&quot;User
+{user}'s content {content_id} received {total_engagements}
+engagements and earned {points_awarded} points.&quot;</p>
+<p style="margin-bottom: 0.11in"><br/>
+<br/>
+
+</p>
+</body>
+</html>
