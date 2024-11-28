@@ -1,82 +1,146 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Bienvenue sur le site incroyable de BastosBoP. Découvrez notre contenu et explorez des fonctionnalités uniques.">
-    <title>Mon Site Incroyable</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Lien vers le fichier CSS -->
-    <script src="script.js" defer></script>  <!-- Lien vers le fichier JavaScript -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Bienvenue sur le site officiel de BoP, votre solution pour le cashback, récompenses et bien plus.">
+    <meta name="keywords" content="BoP, cashback, programme de fidélité, récompenses, marketplace">
+    <meta name="author" content="BastosBoP">
+    <title>BoP - Cashback & Récompenses</title>
+
+    <!-- Lien vers la feuille de style CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome (pour les icônes) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
 </head>
+
 <body>
-    <!-- En-tête -->
+    <!-- HEADER - Navigation -->
     <header>
-        <div class="container">
-            <h1>Bienvenue sur mon site incroyable !</h1>
-            <nav>
-                <ul>
+        <nav>
+            <div class="container">
+                <div class="logo">
+                    <a href="#home">BoP</a>
+                </div>
+                <ul class="nav-links">
                     <li><a href="#home">Accueil</a></li>
                     <li><a href="#about">À propos</a></li>
                     <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projets</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
-            </nav>
-        </div>
+            </div>
+        </nav>
     </header>
 
-    <!-- Section principale -->
-    <main id="home">
-        <section class="hero">
-            <h2>Un site incroyable avec des fonctionnalités exceptionnelles</h2>
-            <p>Explorez notre site et découvrez nos services !</p>
-            <a href="#services" class="cta-btn">Nos services</a>
-        </section>
-
-        <section id="about" class="about">
-            <h2>À propos de nous</h2>
-            <p>Nous sommes une équipe passionnée, dédiée à offrir une expérience en ligne exceptionnelle. Notre objectif est de vous apporter des contenus de qualité et une navigation fluide.</p>
-        </section>
-
-        <section id="services" class="services">
-            <h2>Nos services</h2>
-            <div class="service-card">
-                <h3>Service 1</h3>
-                <p>Des fonctionnalités de haute qualité pour vous aider à atteindre vos objectifs.</p>
-            </div>
-            <div class="service-card">
-                <h3>Service 2</h3>
-                <p>Un support client réactif et des solutions adaptées à vos besoins.</p>
-            </div>
-            <div class="service-card">
-                <h3>Service 3</h3>
-                <p>Un site interactif et moderne qui s'adapte à tous vos appareils.</p>
+    <!-- MAIN CONTENT -->
+    <main>
+        <!-- Section d'Accueil -->
+        <section id="home" class="hero-section">
+            <div class="hero-container">
+                <h1>Bienvenue sur BoP</h1>
+                <p>Récompenses, cashback, et bien plus encore ! Découvrez notre programme de fidélité et commencez à économiser.</p>
+                <a href="#services" class="cta-button">Explorer Nos Services</a>
             </div>
         </section>
 
-        <section id="contact" class="contact">
-            <h2>Contactez-nous</h2>
-            <p>Si vous avez des questions, n'hésitez pas à nous contacter via ce formulaire :</p>
-            <form id="contact-form">
-                <label for="name">Nom :</label>
-                <input type="text" id="name" name="name" required>
+        <!-- Section À propos -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2>À propos de BoP</h2>
+                <p>BoP est une plateforme innovante qui offre un programme de cashback et des récompenses pour vos achats en ligne et bien plus. Nous vous permettons de gagner des points pour chaque achat que vous effectuez avec nos partenaires, que vous pouvez échanger contre des produits, des réductions et d'autres avantages.</p>
+            </div>
+        </section>
 
-                <label for="email">Email :</label>
-                <input type="email" id="email" name="email" required>
+        <!-- Section des Services -->
+        <section id="services" class="services-section">
+            <div class="container">
+                <h2>Nos Services</h2>
+                <div class="service-cards">
+                    <div class="service-card">
+                        <i class="fas fa-gift"></i>
+                        <h3>Récompenses & Points</h3>
+                        <p>Gagnez des points à chaque achat avec nos partenaires et échangez-les contre des cadeaux exclusifs.</p>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-credit-card"></i>
+                        <h3>Cashback</h3>
+                        <p>Recevez un cashback sur vos achats chez des commerçants partenaires, directement sur votre compte BoP.</p>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-users"></i>
+                        <h3>Communauté</h3>
+                        <p>Rejoignez une communauté d'acheteurs connectés et bénéficiez de programmes de parrainage et de challenges communautaires.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-                <label for="message">Message :</label>
-                <textarea id="message" name="message" required></textarea>
+        <!-- Section Projets -->
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <h2>Nos Projets</h2>
+                <div class="projects-gallery">
+                    <div class="project-card">
+                        <h3>Cashback System</h3>
+                        <p>Notre système de cashback vous permet de récupérer une partie de vos achats.</p>
+                    </div>
+                    <div class="project-card">
+                        <h3>Programmes de Récompenses</h3>
+                        <p>Participez à des programmes de fidélité pour gagner des cadeaux et des bonus.</p>
+                    </div>
+                    <div class="project-card">
+                        <h3>Challenge Communautaires</h3>
+                        <p>Des défis passionnants pour la communauté, avec des récompenses exclusives.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-                <button type="submit">Envoyer</button>
-            </form>
+        <!-- Section Contact -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2>Contactez-nous</h2>
+                <form action="mailto:contact@bop.com" method="post" enctype="text/plain">
+                    <label for="name">Nom:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+
+                    <button type="submit" class="cta-button">Envoyer Message</button>
+                </form>
+            </div>
         </section>
     </main>
 
-    <!-- Pied de page -->
+    <!-- FOOTER -->
     <footer>
         <div class="container">
-            <p>&copy; 2024 BastosBoP. Tous droits réservés.</p>
-            <p><a href="https://github.com/BastosBoP">Voir sur GitHub</a></p>
+            <p>&copy; 2024 BoP. Tous droits réservés.</p>
+            <ul class="social-links">
+                <li><a href="https://www.facebook.com/BastosBoP" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="https://twitter.com/BastosBoP" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://www.linkedin.com/company/BastosBoP" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+            </ul>
         </div>
     </footer>
+
+    <!-- Scripts JS -->
+    <script src="script.js"></script>
 </body>
+
 </html>
